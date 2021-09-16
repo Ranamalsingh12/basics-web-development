@@ -1,0 +1,85 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('girlgym.jpg') no-repeat  ;
+    background-size: cover;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    font-weight: 700;    
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.left img{
+    width: 130px;
+    height: 50px;
+    filter: invert(100%);
+}
+.left p{
+    text-align: center;
+}
+.mid{
+    width: 33%;
+    margin: 20px auto;    
+}
+.right{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+        display: inline-block;
+    }
+.navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+}
+.navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+
+}
+.btn{
+    margin: 2px 2px;
+    padding: 3px 13px;
+    background-color: transparent  ;
+    color: white;
+    border-color: gray;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:hover{
+    text-decoration: underline;
+    background-color: rgb(51, 48, 48); 
+}
+.container{
+    border: 2px solid white;
+    margin: 114px 105px;
+    padding: 45px 20px;
+    border-radius: 3px;
+    width: 22%;
+    text-align: center;
+    border-radius: 10px;
+}
+.form-group input{
+    padding: 2px 28px;
+    margin: 4px -6px;
+    width: -webkit-fill-available;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.form-group button{
+    text-align: center;
+    width: 50%;
+    background-color: #76FF03;
+    margin: 8px;
+}
